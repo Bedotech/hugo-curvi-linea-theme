@@ -1,0 +1,10 @@
+#map {
+  width: 400px;
+  height: 254px;
+}
+
+@media (min-width: 768px) {
+    #map {
+        float: right;
+    }
+}
