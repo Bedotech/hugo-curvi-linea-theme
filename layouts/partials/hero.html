@@ -1,11 +1,52 @@
 {{ "<!-- HEADER -->" | safeHTML }}
 <header>
-    <div class="header-content">
-        <div class="header-content-inner">
-            <h1>{{ with .Site.Params.hero.slogan }}{{ . }}{{ end }}</h1>
-            <hr>
-            <p>{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p>
-            <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
-        </div>
-    </div>
+  <div class="header-content">
+    <div class="header-content-inner">
+         <!-- <object data="img/logo_full.svg" type="image/svg+xml">
+            <img src="yourfallback.jpg" />
+          </object> -->
+          <svg width="650" height="200">
+            <text
+            id='description'
+            class='color-text'
+            style="font-size:144px;font-family: 'Oxygen'; font-weight:normal; font-style: normal"
+            x="0"
+            y="110">
+            curvi
+          </text>
+          <text
+          id='description'
+          style="fill:#ff0066; font-size:144px;font-family: 'Oxygen'; font-weight:normal; font-style: normal"
+          x="300"
+          y="110">
+          l
+        </text>
+        <text
+        id='description'
+        class='color-text'
+        style="font-size:144px;font-family: 'Oxygen'; font-weight:normal; font-style: normal"
+        x="350"
+        y="110">
+        inea
+      </text>
+      <path
+      style="stroke:#ff0066;stroke-width:5;stroke-linecap:square;stroke-opacity:1;"
+      d="m 0,120 660,0"
+      id="underline"
+      />
+
+      <text
+      id='description'
+      class='color-text'
+      style="font-size:56px; font-family: 'Oxygen'; font-weight:normal; font-style: normal"
+      x="0"
+      y="190">
+      belle e morbide... dalla 46
+    </text>
+  </svg>
+  <br />
+  <br />
+  <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
+</div>
+</div>
 </header>
