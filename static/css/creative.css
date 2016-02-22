@@ -71,9 +71,9 @@ p {
     background-color: #222;
 }
 
-.text-faded {
-    /*color: rgba(255,255,255,.7);*/
+.orange {
     color: #FF851B;
+    font-weight: 300;
 }
 
 text#description {

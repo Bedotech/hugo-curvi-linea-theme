@@ -1,0 +1,22 @@
+{{ "<!-- BRANDS -->" | safeHTML }}
+<section id="brands">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.brands.headline }}{{ . }}{{ end }}</h2>
+                <hr rands="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            {{ range .Site.Params.brands.list }}
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="brands-box">
+                    <img src="img/brands/{{ .logo }}" alt="{{ .alt }}" href="{{ .link }}"/>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
