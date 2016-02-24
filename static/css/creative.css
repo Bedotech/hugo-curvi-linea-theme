@@ -71,9 +71,11 @@ p {
     background-color: #222;
 }
 
-.orange {
-    color: #FF851B;
-    font-weight: 300;
+.orange p {
+    /*color: #FF851B;*/
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 text#description {
