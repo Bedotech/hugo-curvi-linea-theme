@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="660"
+   height="130"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="curvilinea_description.svg">
+  <defs
+     id="defs4" />
+  <defs>
+  <style type="text/css">
+   <![CDATA[
+    @font-face {
+        font-family: Oxygen;
+        src: url('https://fonts.googleapis.com/css?family=Oxygen');
+    }
+   ]]>
+  </style>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+
+  <text
+    id='description'
+    style="font-size:144px;font-family: 'Oxygen'; font-weight:normal; font-style: normal"
+    x="0"
+    y="110">
+      curvi
+  </text>
+  <text
+    id='description'
+    style="fill:#ff0066; font-size:144px;font-family: 'Oxygen'; font-weight:normal; font-style: normal"
+    x="300"
+    y="110">
+      l
+  </text>
+  <text
+    id='description'
+    style="font-size:144px;font-family: 'Oxygen'; font-weight:normal; font-style: normal"
+    x="350"
+    y="110">
+      inea
+  </text>
+  <path
+       style="stroke:#ff0066;stroke-width:5;stroke-linecap:square;stroke-opacity:1;"
+       d="m 0,120 660,0"
+       id="underline"
+       />
+</svg>
